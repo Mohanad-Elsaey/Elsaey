@@ -1,0 +1,114 @@
+header nav .logo{
+  padding: 20px;
+  padding-left: 40px;
+}
+.section1{
+  background-image: url("./img/pc.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding: 10px;
+  text-align: center;
+}
+.section1 h1{
+  color: white;
+  font-size: 80px;
+  padding-top: 100px;
+}
+.section1 hr{
+  margin-top: -40px;
+  width: 35%;
+}
+.section1 p{
+  color: white;
+}
+.section1 button{
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #0073e6;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.section1 button:hover{
+  background-color: #0073e6;
+  color: black;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 30px 90px;
+}
+.section3 .container {
+  background-color: #c0bcbc97;
+  text-align: center;
+  padding: 50px 70px;
+}
+.imgs{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container img {
+  height: 220px;
+  width: 280px;
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+}
+.section4 {
+  background-color: rgb(21, 17, 35);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  padding: 40px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+.form-container h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.form-container p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid rgb(215, 204, 204);
+  background-color: transparent;
+}
+.form-container input[type="checkbox"] {
+  margin: 0 10px 0 0;
+  width: auto;
+}
+.form-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 26%;
+  border: solid 1px #0073e6;
+  background-color: transparent;
+  margin-right: -25px;
+  margin-left: 148px;
+}
